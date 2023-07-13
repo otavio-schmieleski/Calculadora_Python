@@ -79,7 +79,7 @@ def opcoes():
     print(" X  x AO QUADRADO |  R RAIZ QUADRADA | C ZERAR | 0-> Encerrar calculadora") # verefica a opcao escolhida e faz a opracao
     print()
     global operacao
-    operacao = input("qual operacao deseja realizar escolha alguma opcao acima ").lower()
+    operacao = input("qual operacao deseja realizar escolha alguma opcao acima (passe o sinal a frente da operacao) ").lower()
 
 while continua:
 
